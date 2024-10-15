@@ -131,7 +131,7 @@ YEARS = ["1900", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998",
                            # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
                            # Ask Doubt on telegram @KingVJ01
 
-
+STREAM_MODE = bool(environ.get('STREAM_MODE', True)) 
 MULTI_CLIENT = False
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
